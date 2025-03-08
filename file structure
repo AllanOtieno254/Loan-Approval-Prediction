@@ -1,0 +1,18 @@
+Loan-Approval-Prediction/
+│── data/                          # Folder for datasets
+│   ├── loan_approval.csv           # Original dataset
+│   ├── processed_data.csv          # Preprocessed dataset
+│── notebooks/                      # Jupyter Notebooks
+│   ├── data_preprocessing.ipynb    # Data cleaning and preprocessing
+│   ├── model_training.ipynb        # Model training and evaluation
+│   ├── model_testing.ipynb         # Model testing and validation
+│── models/                         # Saved models
+│   ├── loan_approval_model.h5      # Trained deep learning model
+│   ├── scaler.pkl                  # Saved scaler for preprocessing
+│── scripts/                        # Python scripts for automation
+│   ├── train_model.py              # Training script
+│   ├── predict.py                  # Script for making new predictions
+│── README.md                       # Detailed documentation
+│── requirements.txt                 # Required Python libraries
+│── LICENSE                         # License for open-source usage
+│── .gitignore                       # Ignore unnecessary files
